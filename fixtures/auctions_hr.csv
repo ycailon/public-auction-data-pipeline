@@ -1,0 +1,4 @@
+reference,parcel,country,title,date,starting_price,size,language
+HR-100,HR-7788,HR,Synthetic residential apartment,20.11.2026,"125.000,00","82,50",hr
+HR-101,HR-8899,HR,Synthetic vacant commercial unit,2026-12-12,"250.000,00","130,00",hr
+HR-102,HR-INVALID,HR,Invalid source example,not-a-date,"12.000,00","80,00",hr

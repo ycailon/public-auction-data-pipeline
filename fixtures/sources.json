@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "name": "example_croatian_register",
+      "kind": "csv",
+      "file": "auctions_hr.csv",
+      "source_url": "https://example.org/hr-auctions",
+      "observed_at": "2026-10-10T08:00:00Z",
+      "mapping": {"source_record_id": "reference", "cadastre_id": "parcel", "price_eur": "starting_price", "area_sqm": "size", "auction_date": "date"}
+    },
+    {
+      "name": "example_german_register",
+      "kind": "json",
+      "file": "auctions_de.json",
+      "source_url": "https://example.org/de-auctions",
+      "observed_at": "2026-10-11T08:00:00Z",
+      "mapping": {"source_record_id": "reference", "cadastre_id": "parcel", "price_eur": "starting_price", "area_sqm": "size", "auction_date": "date"}
+    },
+    {
+      "name": "example_partner_feed",
+      "kind": "html",
+      "file": "partner_feed.html",
+      "source_url": "https://example.com/partner-auctions",
+      "observed_at": "2026-10-12T08:00:00Z"
+    }
+  ]
+}

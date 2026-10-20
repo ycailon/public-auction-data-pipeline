@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "public-auction-data-pipeline"
+version = "0.1.0"
+description = "Provenance-first multi-source public auction data pipeline using synthetic inputs"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+auction-pipeline = "auction_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
